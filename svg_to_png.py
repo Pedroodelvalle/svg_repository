@@ -3,7 +3,7 @@ import requests
 from io import BytesIO
 
 # URL do arquivo SVG armazenado no Supabase
-svg_url = "https://brnwkkmdghyqezcwbyxz.supabase.co/storage/v1/object/sign/svg/saida_base64.svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzdmcvc2FpZGFfYmFzZTY0LnN2ZyIsImlhdCI6MTc0MTgwNzQxNCwiZXhwIjoxNzQyNDEyMjE0fQ.-gT45FAk5uWnQddq5-9FMoYTThi_cSjosETr5W6KsDI"
+svg_url = "https://brnwkkmdghyqezcwbyxz.supabase.co/storage/v1/object/sign/svg/saida_base64%20(2).svg?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJzdmcvc2FpZGFfYmFzZTY0ICgyKS5zdmciLCJpYXQiOjE3NDE4MDgwMTIsImV4cCI6MTc0MjQxMjgxMn0.K0ve2oOI5jq1TqITqfHaneZXx3dGkVGQeAZHmT928BE"
 
 # Baixa o SVG do Supabase
 response = requests.get(svg_url)
